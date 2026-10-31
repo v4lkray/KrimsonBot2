@@ -1,0 +1,14 @@
+name: KrimsonPracticeBot
+version: 1.0.0
+main: mc.krimson.practicebot.KrimsonPracticeBot
+api-version: '1.21'
+author: Krimson
+description: Practice bot with configurable armor and training options.
+commands:
+  bot:
+    description: Opens the practice bot menu.
+    usage: /bot
+permissions:
+  krimsonpracticebot.use:
+    description: Allows use of /bot.
+    default: op
